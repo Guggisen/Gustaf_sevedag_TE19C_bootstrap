@@ -1,12 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>Detta är en rubrik, hoppas att bootstrap laddas in.</h1>
+   
+     <!--Jag börjar med att skapa en div med class continer för att kunna skilja på de olika delarna jag
+    skall skriva om. Jag föredrar .container framför .container-fluid för jag tycker det passar bättre
+här eftersom att det blir lite runt omkring och jag vill ha allting centralt. Sedan använder jag en 
+header för att tydligt kunna visa läsarna vad dem kommer att få reda på. sedan har jag valt att ha
+en bild under headern för att göra sidan lite mindre torr än bara ren text. här använde jag mig även av 
+classen img-fluid vilket gör att ingen utav bilderna blir överdrivet stora och jag slipper själv gå 
+in och ändra i css. Sedan skriver jag bara infon om det jag skrev i min header -->
+      <div class="container">
+             <h1>HTML</h1>
+            <div class="bild"><img  src="170427-637363828865101045-16x9.jpg" class="img-fluid"></div>
+             <p>HTML är en samling av koder och symboler som utgör det vi ser på våra webbläsare.</p>
+      </div>
+
+      <div class="container">
+        <h1>Element</h1>
+       <div class="bild"><img  src="element.png" class="img-fluid"></div>
+        <p>Element är dem olika "koder" som används som tillexempel "< p >" som används för att<br> 
+            skriva text, men även texten som skrivs ingår i det elementet. Varje element har också en slut tag <br> 
+        som i detta fallet hade skrivits " < /p >". Exit tag används för att avsluta ett element. </p>
+ </div>
+
+ <div class="container">
+    <h1>ID</h1>
+   <div class="bild"><img  src="id.jpg" class="img-fluid"></div>
+    <p>ID är ett slags verktyg som man kan använda för att förändra hur ett element<br>
+         kommer att se ut på din hemsida. Du använder det genom att tilldela <br>
+        ett element ett ID. Sedan använder du det ID i en css för att modifiera det <br>
+    till att se ut som du vill. Dock kan du endast ändra ett element åt gångenmed ett ID.</p>
+</div>
+
+<div class="container">
+    <h1>Class</h1>
+   <div class="bild"><img  src="class.png" class="img-fluid"></div>
+    <p>En class fungerar likadant som ID men det är mer effektivt att använda då du kan <br>
+    använda en class till att ändra flera saker samtidigt. Så om du vill ändra alla dina <br>
+div element samtidigt til lsamma sak så fungerar det.</p>
+</div>
+
+<div class="container">
+    <h1>Responsive</h1>
+   <div class="bild"><img  src="responsive.png" class="img-fluid"></div>
+    <p>När HTML och css kan ändra storlek på hemsidan beroende på om du använder telefon eller <br>
+    dator samt vilken telefon du använder så är den repsonsive. </p>
+</div>
+
+<div class="container">
+    <h1>Meta</h1>
+   <div class="bild"><img  src="meta.png" class="img-fluid"></div>
+    <p>Tagen meta används för att definera metadata och används inte i bodyn utan i head vilket <br>
+        betyder att det itne visas på din hemsida. Metadata är data angående data. Metadata kan specifiera <br>
+    teckenkodningen för HTML-dokumentet med mer.  </p>
+</div>
+
+<div class="container">
+    <h1>http</h1>
+   <div class="bild"><img  src="http.png" class="img-fluid"></div>
+    <p>Http står för Hypertext Transfer Protocol och är ett protokoll som överför hypertext <br>
+    från webservern till webläsaren. </p>
+</div>
+
+<div class="container">
+    <h1>https</h1>
+   <div class="bild"><img  src="https.png" class="img-fluid"></div>
+    <p>Https är nästan samma sak som http. Det står för Hypertext Transfer Protocol Secure <br>
+    och den stora skillnaden mellan http och https är att den sistnämnda har ett extra lager <br>
+med högre säkerhet som krypterar infromationen som skickas över till din dator så att den blir svårare <br>
+för oönskade personer att komma åt.  </p>
+</div>
+
+<div class="container">
+    <h1>Compressed data</h1>
+   <div class="bild"><img  src="compressed.png" class="img-fluid"></div>
+    <p>När en fil eller annan data på datorn komprimeras för att ta upp mindre plats så kallas den för <br>
+    compressed data. Detta eftersom att man använder förre bits i compressed data.</p>
+</div>
+
+<div class="container">
+    <h1>CDN</h1>
+   <div class="bild"><img  src="cdn.png" class="img-fluid"></div>
+    <p>Content delivery network eller CDN är en samling av utspridda servrar som sparar kopior på data <br>
+    för att man i vissa lägen skall få snabb åtkomst till dem från närmsta möjliga server. </p>
+</div>
+
+<div class="container">
+    <h1>Local bootstrap</h1>
+   <div class="bild"><img  src="bootstrap.png" class="img-fluid"></div>
+    <p>Bootstrap är en förgjord css med mallar för allt mellan navbars och containers. <br>
+    Det är även bra för att det automatiskt mobilanpassar din hemsida utan att du behöver göra någonting. </p>
+</div>
+
+<div class="container">
+    <h1>JQuery</h1>
+   <div class="bild"><img  src="jquery.png" class="img-fluid"></div>
+    <p>JQuery är ett bibliotek med javascript som webbutvecklare kan få tillgång till för att <br>
+    underlätta och utveckla deras hemsidor. </p>
+</div>
+
+<div class="container">
+    <h1>Flexbox</h1>
+   <div class="bild"><img  src="felxbox.png" class="img-fluid"></div>
+    <p>Flexbox är en endimisionell layout metod för att kunna ändra position horisontellt och vertikalt. <br>
+    Flexboxen kommer automatiskt att fylla i eller passa in i större eller mindre områden.</p>
+</div>
+
+<div class="container">
+    <h1>Grid</h1>
+   <div class="bild"><img  src="grid.png" class="img-fluid"></div>
+    <p>Grid är en layout använd i HTML för att diveidera olika delar av sidan i "grids" vilket förenklar <br>
+    positionering på din hemsida. </p>
+</div>
 </body>
 </html>
